@@ -1,0 +1,32 @@
+﻿# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Training outputs
+runs/
+
+# Dataset images (too large)
+test/images/
+train/images/
+valid/images/
+
+# Pre-trained weights
+yolo11n.pt
+yolov8n.pt
+
+# Documentation files (already in report)
+SECTION_3_REPORT.md
+CHALLENGES_AND_SOLUTIONS.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
